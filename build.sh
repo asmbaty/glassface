@@ -22,8 +22,8 @@ if [ ! -f AppIcon.icns ]; then
 fi
 
 echo "==> Compiling Swift"
-swiftc -O -o "$BIN" main.swift \
-    -framework Cocoa -framework AVFoundation -framework Carbon
+swiftc -O -o "$BIN" Sources/*.swift main.swift \
+    -framework Cocoa -framework AVFoundation -framework Carbon -framework Vision
 
 echo "==> Installing Info.plist and icon"
 cp Info.plist "$APP/Contents/Info.plist"
