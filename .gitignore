@@ -1,0 +1,22 @@
+# Build output
+GlassFace.app/
+
+# Generated icon (rebuilt by build.sh / make_icon.swift)
+AppIcon.icns
+AppIcon.iconset/
+
+# Compiled binaries / build helpers
+*.o
+*.swiftmodule
+/tmp/glassface-makeicon
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Xcode (if a project is ever added)
+xcuserdata/
+*.xcuserstate
+DerivedData/
