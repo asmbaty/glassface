@@ -1,7 +1,29 @@
-# .NET build output
-bin/
-obj/
-*.user
+# Visual Studio / MSBuild build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+ARM64/
+[Gg]enerated Files/
 
-# Publish output
-publish/
+# NuGet
+packages/
+*.nuget.props
+*.nuget.targets
+
+# MSIX packaging output
+AppPackages/
+BundleArtifacts/
+*.appx
+*.msix
+*.appxbundle
+
+# VS user/state
+.vs/
+*.user
+*.aps
+*.pch
+*.ipch
+*.pdb
+*.idb
